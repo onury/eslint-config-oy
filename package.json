@@ -1,0 +1,46 @@
+{
+    "name": "eslint-config-oy",
+    "version": "1.0.0",
+    "description": "Shared ESLint config for my projects",
+    "repository": "onury/eslint-config-oy",
+    "author": "Onur Yildirim <onur@cutepilot.com>",
+    "license": "MIT",
+    "engines": {
+        "node": ">=12"
+    },
+    "files": [
+        "index.js",
+        "ts.js",
+        "_common.js",
+        "package.json",
+        "LICENSE",
+        "README.md"
+    ],
+    "keywords": [
+        "eslint",
+        "lint",
+        "javascript",
+        "typescript",
+        "js",
+        "ts",
+        "config",
+        "configuration"
+    ],
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.29.2",
+        "@typescript-eslint/parser": "^4.29.2",
+        "eslint-plugin-import": "^2.24.1",
+        "eslint-plugin-jsdoc": "^36.0.7",
+        "eslint-plugin-no-null": "^1.0.2",
+        "eslint-plugin-prefer-arrow": "^1.2.3",
+        "eslint-plugin-unicorn": "^35.0.0"
+    },
+    "peerDependencies": {
+        "eslint": ">=7",
+        "typescript": "*"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "typescript": "^4.3.5"
+    }
+}
