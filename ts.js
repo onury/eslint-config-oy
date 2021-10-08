@@ -215,7 +215,8 @@ module.exports = {
         '@typescript-eslint/no-inferrable-types': [
             'error',
             {
-                ignoreParameters: true,
+                ignoreProperties: true,
+                ignoreParameters: true
             },
         ],
 
