@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-oy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Shared ESLint config for my projects",
   "repository": "onury/eslint-config-oy",
   "author": "Onur Yildirim <onur@cutepilot.com>",
