@@ -124,7 +124,7 @@ module.exports = {
       {
         selector: 'interface',
         format: ['PascalCase'],
-        prefix: ['I'],
+        // prefix: ['I'], // deprecated
       },
       {
         selector: 'function',
